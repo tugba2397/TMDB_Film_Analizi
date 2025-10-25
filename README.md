@@ -1,6 +1,6 @@
 # TMDB Film Verisi Analizi
 
-Bu proje, [TMDB 5000 Movies veri setini] kullanarak film süresi, bütçe, popülerlik ve vizyon yılı gibi faktörlerin ortalama oylamayı (rating) nasıl etkilediğini analiz eder.
+Bu proje, **TMDB 5000 Movies veri setini** kullanarak film süresi, bütçe, popülerlik ve vizyon yılı gibi faktörlerin ortalama oylamayı (rating) nasıl etkilediğini analiz eder.
 
 ## Proje Özeti
 Bu çalışma, TMDB veri seti üzerinden filmlerin özellikleri ile izleyici puanları arasındaki ilişkileri incelemektedir. Amacı, "Daha uzun filmler mi daha çok beğenilir?" veya "Yüksek bütçe, yüksek puanı garanti eder mi?" gibi sorulara veri odaklı yanıtlar bulmaktır.
