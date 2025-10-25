@@ -56,9 +56,10 @@ Eski dönem filmleri genellikle daha yüksek ortalama oylara sahipken, yeni dön
 ---
 
 ## Veri Seti Kaynağı
+
 **TMDB 5000 Movies Dataset**
 
-Veri dosyası bu depoda **`veri/tmdb_5000_movies.csv`** konumunda yer almaktadır.  
+Veri dosyası bu depoda **`tmdb_5000_movies.csv`** adıyla yer almaktadır.  
 Orijinal veri setine [Kaggle üzerinden ulaşabilirsiniz](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
 ---
@@ -66,14 +67,12 @@ Orijinal veri setine [Kaggle üzerinden ulaşabilirsiniz](https://www.kaggle.com
 ## Projeyi Çalıştırma
 
 1. **Dosya Yapısı:**  
-   `veri/tmdb_5000_movies.csv` dosyası ile Python kodunuz (`analiz_script_adiniz.py`) **aynı klasörde** olmalıdır.
+   `tmdb_5000_movies.csv` dosyası ile Python kodunuz (`tmdb_film_projesi.py`) **aynı klasörde** olmalıdır.
 
 2. **Kütüphane Kurulumu:**  
-   Projenin bağımlılıklarını yükleyin:
+   Projenin çalışması için gerekli kütüphaneleri yükleyin:
    ```bash
    pip install pandas numpy matplotlib
-
----
 
 ##  Geliştirici ve İletişim
 
