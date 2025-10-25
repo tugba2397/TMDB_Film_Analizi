@@ -6,8 +6,12 @@ Bu proje, [TMDB 5000 Movies veri setini] kullanarak film süresi, bütçe, popü
 Bu çalışma, TMDB veri seti üzerinden filmlerin özellikleri ile izleyici puanları arasındaki ilişkileri incelemektedir. Amacı, "Daha uzun filmler mi daha çok beğenilir?" veya "Yüksek bütçe, yüksek puanı garanti eder mi?" gibi sorulara veri odaklı yanıtlar bulmaktır.
 Veri temizleme, analiz ve görselleştirme işlemleri için Pandas, NumPy ve Matplotlib kütüphaneleri kullanılmıştır.
 
+---
+
 ## Veri Temizleme
 Analizin doğruluğunu sağlamak için, veri setinden öncelikle `homepage`, `keywords`, `tagline` gibi analiz dışı sütunlar kaldırılmıştır. Kalan veri setinde ise `runtime`, `budget` veya `popularity` gibi sütunlarda sıfır (0) ya da boş (NaN) değer içeren satırlar filtrelenerek analize uygun temiz bir veri seti elde edilmiştir.
+
+---
 
 ## Temel Bulgular
 
@@ -23,6 +27,8 @@ Popüler filmler, daha fazla izlenme oranıyla birlikte daha iyi izleyici geri b
 Vizyon yılı, puanlarda dönemsel bir değişim göstermektedir.
 Eski dönem filmleri genellikle daha yüksek ortalama oylara sahipken, yeni dönem filmler biraz daha düşük oylarda kalmaktadır.
 
+---
+
 ## Görseller ve Çıktılar
 
 ### Film Süresi ve Ortalama Oy İlişkisi
@@ -37,6 +43,8 @@ Eski dönem filmleri genellikle daha yüksek ortalama oylara sahipken, yeni dön
 ### Vizyon Yılı ve Ortalama Oy İlişkisi
 ![Vizyon Yılı ve Ortalama Oy İlişkisi](Figure_4.png)
 
+---
+
 ## Kullanılan Teknolojiler
 
 | Kütüphane | Kullanım Amacı |
@@ -45,17 +53,33 @@ Eski dönem filmleri genellikle daha yüksek ortalama oylara sahipken, yeni dön
 | **NumPy** | Sayısal işlemler ve hesaplamalar |
 | **Matplotlib** | Veri görselleştirme ve grafik oluşturma |
 
+---
+
 ## Veri Seti Kaynağı
 **TMDB 5000 Movies Dataset**
 
-Veri seti, bu depoda `.zip` formatında mevcuttur. Orijinal kaynağa [Kaggle üzerinden ulaşabilirsiniz](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
+Veri dosyası bu depoda **`veri/tmdb_5000_movies.csv`** konumunda yer almaktadır.  
+Orijinal veri setine [Kaggle üzerinden ulaşabilirsiniz](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
+
+---
 
 ## Projeyi Çalıştırma
 
-1.  **Dosya Yapısı:** Depodaki `.zip` dosyasını açın. `tmdb_5000_movies.csv` dosyası ile Python script'iniz (`analiz_script_adiniz.py`) **aynı klasörde** olmalıdır.
-2.  **Kütüphane Kurulumu:** Projenin bağımlılıklarını kurun:
-    ```bash
-    pip install pandas numpy matplotlib
-    ```
-3.  **Çalıştırma:** Terminalde script'i çalıştırın:
-    ```bash
+1. **Dosya Yapısı:**  
+   `veri/tmdb_5000_movies.csv` dosyası ile Python kodunuz (`analiz_script_adiniz.py`) **aynı klasörde** olmalıdır.
+
+2. **Kütüphane Kurulumu:**  
+   Projenin bağımlılıklarını yükleyin:
+   ```bash
+   pip install pandas numpy matplotlib
+
+---
+
+##  Geliştirici ve İletişim
+
+Bu proje, **Tuğba Demir** tarafından geliştirilmiştir.
+* **E-posta:** **demirtugba490@gmail.com**
+
+---
+
+
