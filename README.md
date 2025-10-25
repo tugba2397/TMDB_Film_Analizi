@@ -31,17 +31,34 @@ Eski dönem filmleri genellikle daha yüksek ortalama oylara sahipken, yeni dön
 
 ## Görseller ve Çıktılar
 
-###      Film Süresi ve Ortalama Oy İlişkisi
-![Film Süresi ve Ortalama Oy İlişkisi](Figure_1.png)
+### Film Süresi ve Ortalama Oy İlişkisi
+<p align="center">
+  <b>Film Süresi ve Ortalama Oy İlişkisi</b><br><br>
+  <img src="Figure_1.png" width="600"><br>
+</p>
+---
 
-###      Bütçe ve Ortalama Oy İlişkisi
-![Bütçe ve Ortalama Oy İlişkisi](Figure_2.png)
+### Bütçe ve Ortalama Oy İlişkisi
+<p align="center">
+  <b>Bütçe ve Ortalama Oy İlişkisi</b><br><br>
+  <img src="Figure_2.png" width="600"><br>
+</p>
 
-###      Popülerlik ve Ortalama Oy İlişkisi
-![Popülerlik ve Ortalama Oy İlişkisi](Figure_3.png)
+---
 
-###      Vizyon Yılı ve Ortalama Oy İlişkisi
-![Vizyon Yılı ve Ortalama Oy İlişkisi](Figure_4.png)
+### Popülerlik ve Ortalama Oy İlişkisi
+<p align="center">
+  <b>Popülerlik ve Ortalama Oy İlişkisi</b><br><br>
+  <img src="Figure_3.png" width="600"><br>
+</p>
+
+---
+
+### Vizyon Yılı ve Ortalama Oy İlişkisi
+<p align="center">
+  <b>Vizyon Yılı ve Ortalama Oy İlişkisi</b><br><br>
+  <img src="Figure_4.png" width="600"><br>
+</p>
 
 ---
 
